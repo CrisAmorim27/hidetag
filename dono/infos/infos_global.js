@@ -89,15 +89,6 @@ ${prefix}fotomenu só marcar uma foto, que já é trocado.
 
 
 
-
-----------------------------
-CRÉDITOS DO BEM VINDO : 
-
-Brizas-Bot = Ian.
-
-
-Assinado: Aleatory Bot. 
-
 -----------------------------
 `;
 };
@@ -116,7 +107,7 @@ ${prefix}limitecaracteres 1
 
 1 é pra ativar, 0 pra desativar, ok? 
 
-esse comando evitará que enviem trava de texto no seu grupo, pra o bot remover automaticamente, é isso aí.. 
+esse comando evitará que enviem trava de texto ou possíveis anúncios no seu grupo, pra o bot remover automaticamente, é isso aí.. 
 
 Boa sorte.. 
 
@@ -247,7 +238,7 @@ Má lembre, se colocou o bot agora, todos estarão zerado, pois não armazenou i
 
 const tabela = (prefix, NomeDoBot) => {
 return`
-𝐓𝐀𝐁𝐄𝐋𝐀 𝐁𝐘: ${NomeDoBot}🔥
+𝐁𝐘: ${NomeDoBot}🔥
 
 
 𝐓𝐀𝐁𝐄𝐋𝐀 𝐃𝐄 𝐋𝐄𝐓𝐑𝐀𝐒 🌀
@@ -538,9 +529,9 @@ const cmd_termux = (prefix) => {
 return `
 _-_-_-_-_-_-_-_-_
 
-Para saber como instalar o termux e da os comandos, veja esse site:
+Para saber como obter e da os comandos, chama o pai:
 
-https://aleatory.vip/instalacao
+https://wa.me/554884702848
 `;
 };
 
@@ -650,23 +641,14 @@ ${prefix}fazertm e digita o que quer enviar para todos os grupos que foi registr
 const infoaluguel = (prefix, pushname) => {
 return`
 
-Olá ${pushname} Irei explicar como utilizar o comando 
+Olá ${pushname} 
 
-${prefix}rg_aluguel
+${prefix}dono
 
-O exemplo é: ${prefix}rg_aluguel 01/01|coloca o número do dono aqui
+Mais informações somente com meu mestre!
 
-Você coloca o mês que vai expirar, ae ele vai enviar uma mensagem no seu privado no dia que expirar, e vai renovar sozinho pro próximo mês, na mesma data, só não coloque pro mês 12, pois senão ele vai renovar pro mês 13 kkkk, mas só tirar o registro do aluguel..
+${prefix}iddogrupo 
 
-Comando de tirar um aluguel do registro..
-
-${prefix}rm_aluguel iddogrupo 
-
-Em iddogrupo você tem que pegar o id do grupo, que está registrado o aluguel, use o comando ${prefix}iddogrupo 
-
-E contem também o comando ${prefix}lista_aluguel que visualiza todos aluguel já registrado... 
-
-Lá você pode pegar o id do grupo também, pra tirar do registro kkkk
 
 Boa sorte..
 `;
